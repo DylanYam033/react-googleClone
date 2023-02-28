@@ -1,0 +1,73 @@
+.main-container{
+    margin-top:90px ;
+    text-align: center;
+}
+
+.main-logo{
+    margin: auto;
+    margin-bottom: 15px;
+}
+
+.main-logo img{
+    width: 650px;
+}
+
+.main-buttons{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.main-buttons button{
+    height: 36px;
+    background-color: #f2f2f2;
+    border: none;
+    border-radius: 10px;
+}
+
+.main-buttons button:hover{
+    border: 1px solid black;
+    cursor: pointer;
+    box-shadow: 0 1px 1px #000001;
+}
+
+.main-buttons div{
+    margin-left: 10px;
+}
+
+.main-buttons div a:visited{
+    color: inherit;
+    text-decoration: inherit;
+}
+
+.main-input-container{
+    width: 600px;
+    margin: auto;
+    border: 1px solid black;
+    border-radius: 100px;
+}
+
+.main-input-container input{
+    width: 450px;
+    height: 40px;
+    border: none;
+    outline: none;
+    
+}
+
+.main-input-container:hover{
+    box-shadow: 0 1px 6px 0 black;
+}
+
+.search-icon{
+    background-image: url('https://www.gstatic.com/images/branding/googlemic/2x/googlemic_color_24dp.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 20px;
+    height: 20px;
+}
+
+.main-input span{
+    margin-top: 15px;
+}
